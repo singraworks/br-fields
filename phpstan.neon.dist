@@ -1,0 +1,10 @@
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+
+parameters:
+    paths:
+        - src
+
+    level: max
+
+    tmpDir: .build/phpstan
